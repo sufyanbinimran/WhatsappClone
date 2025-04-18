@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character encoding and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the web page -->
+    <title>chitchat App</title>
+    <!-- Script tag to load Socket.IO library -->
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>  <!-- This script tag loads the Socket.IO library from localhost basically client or server k connection k lie hai-->
+    <!-- Script tag to load client-side JavaScript -->
+    <script defer src="js/client.js"></script>
+    <!-- Link tag to include CSS styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <!-- Logo image -->
+        <img class="logo" src="png-transparent-media-social-whatsapp-social-icons-scribble-icon.png">
+        <!-- Title of the application -->
+        <h1>Low Budget WhatsUpp</h1>
+    </nav>
+    <!-- Container for status updates -->
+    <div class="status-container" id="statusContainer">
+        <!-- Heading for status updates -->
+        <h2>Status Updates</h2>
+        <!-- Status upload section -->
+        <div class="status-upload">
+            <!-- Input field for status text -->
+            <input type="text" id="statusText" placeholder="Enter status text...">
+            <!-- Button to upload status text -->
+            <button class="btn" onclick="sendStatus()">Upload Status</button>
+            <!-- Input field for uploading image -->
+            <input type="file" id="statusImageInput" accept="image/*">
+            <!-- Button to upload image -->
+            <button class="btn" onclick="sendStatusImage()">Upload Image</button>
+        </div>
+        <!-- Container for displaying messages -->
+        <div class="container" id="messageContainer">
+            <!-- Messages will be displayed here -->
+        </div>
+        <!-- Message sending section -->
+        <div class="send">
+            <!-- Form for sending messages -->
+            <form action="#" id="send-container">
+                <!-- Input field for typing messages -->
+                <input type="text" name="messageInp" id="messageInp">
+                <!-- Button to send text message -->
+                <button class="btn" type="submit">Send</button>
+                <!-- Input field for uploading image -->
+                <input type="file" name="image" id="imageInput">
+                <!-- Button to send image -->
+                <button class="btn" type="button" onclick="sendImage()">Image</button>
+                <!-- Input field for uploading documents -->
+                <input type="file" name="document" id="documentInput">
+                <!-- Button to send document -->
+                <button class="btn" type="button" onclick="sendDocument()">Document</button>
+            </form>
+        </div>
+        <!-- Container for status notifications -->
+        <div class="status-notifications" id="statusNotifications"></div>
+        <!-- Status display portion -->
+        <div class="status-display">
+            <!-- Heading for status display portion -->
+            <h2>Status Display Portion</h2>
+            <!-- Container for displaying status updates -->
+            <div class="status-container" id="statusContainer">
+                <!-- Status updates will be displayed here -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

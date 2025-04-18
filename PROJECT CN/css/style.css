@@ -1,0 +1,145 @@
+    /* Styling for logo */
+    .logo{
+        display: block;
+        margin: auto;
+        width: 80px;
+        height: 60px;       
+    }
+
+    /* Styling for h1 element */
+    h1{
+        margin-top: 12px;
+        font-size: 30px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        text-align: center;
+    }
+
+    /* Body styling */
+    body {
+        height: 90hv; /* Adjusting body height */
+        background-image: linear-gradient(rgb(255, 255, 255), rgb(13, 66, 30)); /* Setting background image with linear gradient */
+    }
+
+    /* Container styling */
+    .container {
+        max-width: 955px; /* Setting maximum width */
+        border: 2px solid black; /* Border styling */
+        margin: auto; /* Centering the container */
+        height: 40vh; /* Setting height */
+        padding: 33px; /* Adding padding */
+        overflow-y: auto; /* Adding vertical scrollbar when content exceeds container height */
+        margin-bottom: 23px; /* Adding space at the bottom */
+    }
+
+    /* Styling for messages */
+    .message {
+        background-color: rgb(240, 235, 235); /* Background color */
+        width: 100px; /* Setting width */
+        padding: 10px; /* Adding padding */
+        margin: 17px 12px; /* Setting margin */
+        border: 2px solid black; /* Border styling */
+        border-radius: 10px; /* Adding border radius */
+    }
+
+    /* Float styling */
+    .left {
+        float: left;
+        clear: both;
+    }
+
+    .right {
+        float: right;
+        clear: both;
+    }
+
+    /* Styling for send container */
+    #send-container {
+        display: block;
+        margin: auto;
+        text-align: center;
+        max-width: 985px;
+        width: 100%; /* Setting width */
+    }
+
+    /* Styling for message input */
+    #messageInp {
+        width: 80%; /* Setting width */
+        border: 2px solid black; /* Border styling */
+        border-radius: 6px; /* Adding border radius */
+        height: 34px; /* Setting height */
+    }
+
+    /* Button styling */
+    .btn {
+        width: 9%; /* Setting width */
+        cursor: pointer; /* Setting cursor */
+        border: 2px solid black; /* Border styling */
+        border-radius: 6px; /* Adding border radius */
+        height: 34px; /* Setting height */
+        background-color: #4CAF50; /* Background color */
+        color: white; /* Text color */
+    }
+
+    /* Styling for status upload section */
+    .status-upload {
+        margin-top: 20px; /* Adding space between status container and upload section */
+    }
+
+    /* Styling for status notification */
+    .status-notification {
+        background-color: rgba(0, 0, 0, 0.5); /* Background color with opacity */
+        color: rgb(233, 221, 221); /* Text color */
+        padding: 10px; /* Adding padding */
+        margin-bottom: 5px; /* Adding margin */
+        transition: background-color 0.3s ease; /* Adding transition for smooth color change */
+    }
+
+    /* Styling for status text */
+    .status-text {
+        margin-bottom: 10px; /* Adding margin */
+        font-size: 18px; /* Setting font size */
+        color: #fffbfb; /* Text color */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font family */
+    }
+
+    /* Styling for status image */
+    .status-image {
+        max-width: 100px; /* Setting maximum width */
+        max-height: 100px; /* Setting maximum height */
+        margin-bottom: 10px; /* Adding margin */
+        border-radius: 50%; /* Adding border radius */
+    }
+
+    /* Button hover state */
+    .btn:hover {
+        background-color: #45a049; /* Darker green color on hover */
+    }
+
+    /* Button active state */
+    .btn:active {
+        background-color: #3e8e41; /* Even darker green color when clicked */
+    }
+
+    /* Styling for upload button */
+    .status-upload .btn {
+        margin: 5px; /* Adding margin around buttons */
+        text-align: center; /* Aligning text to the center within buttons */
+        width: 150px; /* Setting width of the buttons */
+    }
+
+    /* Styling for status display */
+    .status-display {
+        text-align: center; /* Center aligning the content */
+    }
+
+    /* Styling for status display heading */
+    .status-display h2 {
+        margin-bottom: 20px; /* Adding space below the heading */
+    }
+
+    /* Styling for status container */
+    .status-container {
+        padding: 20px; /* Adding padding */
+        border-radius: 10px; /* Adding border radius */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+    }
