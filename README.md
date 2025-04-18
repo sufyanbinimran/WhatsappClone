@@ -86,7 +86,7 @@ This project is open source and free to use under the MIT License.
 
 ## 📧 Contact
 
-For any suggestions or issues, feel free to contact me at: your-email@example.com
+For any suggestions or issues, feel free to contact me at: sufyanbinimran@gmail.com
 
 ---
 
