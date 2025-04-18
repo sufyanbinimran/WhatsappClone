@@ -1,5 +1,5 @@
 // Establishing a WebSocket connection
-const socket = io('http://localhost:8000');
+const socket = io('whatsappclone-production-dac8.up.railway.app');
 
 // DOM elements
 const form = document.getElementById('send-container');
